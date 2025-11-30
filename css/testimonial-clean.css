@@ -1,0 +1,135 @@
+/* CLEAN TESTIMONIAL PAGE - GREEN THEME LIKE ABOUT PAGE */
+/* Simple, clean overrides to match about page styling */
+
+/* Primary color overrides - EXCLUDE social media buttons */
+.text-primary:not(.fab):not(.fas) {
+    color: #28a745 !important;
+}
+
+.btn-primary:not(.btn-social):not(.btn-light):not(.btn-md-square) {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+.btn-primary:not(.btn-social):not(.btn-light):not(.btn-md-square):hover,
+.btn-primary:not(.btn-social):not(.btn-light):not(.btn-md-square):focus,
+.btn-primary:not(.btn-social):not(.btn-light):not(.btn-md-square):active {
+    background-color: #1e7e34 !important;
+    border-color: #1e7e34 !important;
+}
+
+.bg-primary:not(.btn-social):not(.btn-light):not(.btn-md-square) {
+    background-color: #28a745 !important;
+}
+
+.border-primary:not(.btn-social):not(.btn-light):not(.btn-md-square) {
+    border-color: #28a745 !important;
+}
+
+/* Breadcrumb */
+.breadcrumb-item.active {
+    color: #28a745 !important;
+}
+
+/* PRESERVE SOCIAL MEDIA BUTTON STYLING */
+/* Keep social media buttons with their original colors */
+.btn-light,
+.btn-md-square,
+.btn-social {
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+    color: #6c757d !important;
+}
+
+.btn-light:hover,
+.btn-md-square:hover,
+.btn-social:hover {
+    background-color: #e9ecef !important;
+    border-color: #e9ecef !important;
+    color: #495057 !important;
+}
+
+/* Social media icons - preserve original colors */
+.fab.fa-facebook-f {
+    color: #3b5998 !important;
+}
+
+.fab.fa-twitter {
+    color: #1da1f2 !important;
+}
+
+.fab.fa-instagram {
+    color: #e4405f !important;
+}
+
+.fab.fa-linkedin-in {
+    color: #0077b5 !important;
+}
+
+/* Footer social icons - keep readable */
+.footer .btn-light .fab,
+.footer .btn-md-square .fab {
+    color: #6c757d !important;
+}
+
+.footer .btn-light:hover .fab,
+.footer .btn-md-square:hover .fab {
+    color: #495057 !important;
+}
+
+/* Back to top button */
+.back-to-top {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+/* Modal */
+.modal-body.bg-primary {
+    background-color: #28a745 !important;
+}
+
+/* Spinner */
+.spinner-border.text-primary {
+    color: #28a745 !important;
+}
+
+/* Navigation active states */
+.navbar-nav .nav-link.active,
+.dropdown-item.active {
+    color: #28a745 !important;
+}
+
+/* Links - exclude social media */
+a:not(.btn):not(.nav-link):not(.btn-social):not(.btn-light):not(.btn-md-square) {
+    color: #28a745 !important;
+}
+
+a:not(.btn):not(.nav-link):not(.btn-social):not(.btn-light):not(.btn-md-square):hover {
+    color: #1e7e34 !important;
+}
+
+/* Star ratings - keep yellow */
+.fas.fa-star:not(.text-body) {
+    color: #ffc107 !important;
+}
+
+/* Testimonial quote */
+.testimonial-quote .fa-quote-right {
+    color: #28a745 !important;
+}
+
+/* Topbar social icons - preserve original styling */
+.topbar .btn .fab,
+.topbar .text-primary .fab {
+    color: #28a745 !important;
+}
+
+/* Override any green covering on social buttons */
+.btn-light .fab,
+.btn-md-square .fab,
+.btn-social .fab {
+    background: none !important;
+    color: inherit !important;
+}

@@ -1,0 +1,148 @@
+========================================
+HOW TO CHANGE IMAGES IN YOUR WEBSITE
+========================================
+
+All images are now stored locally in the "img" folder. You can easily replace them with your own images.
+
+========================================
+HERO CAROUSEL IMAGES (Home Page)
+========================================
+Location: ISONMICHS/css/solar-enhancements.css (Lines 488-525)
+
+Slide 1 - Left Side:
+  Class: .solar-rooftops
+  Current Image: img/solar-panel-7518786_1280.jpg
+  
+Slide 1 - Right Side:
+  Class: .engineers-smiling
+  Current Image: img/b6.jpeg
+
+Slide 2 - Left Side:
+  Class: .worker-installing
+  Current Image: img/electrician-3771318_1280.jpg
+  
+Slide 2 - Right Side:
+  Class: .city-skyline
+  Current Image: img/b7.jpeg
+
+Slide 3 - Left Side:
+  Class: .family-solar
+  Current Image: img/solar-4824604_1280.jpg
+  
+Slide 3 - Right Side:
+  Class: .solar-farms
+  Current Image: img/b8.jpg
+
+Slide 4 - Left Side:
+  Class: .sunset-panels
+  Current Image: img/shaking-hands-2974790_1280.jpg
+  
+Slide 4 - Right Side:
+  Class: .handshake-partners
+  Current Image: img/b9.jpeg
+
+========================================
+PAGE HEADER IMAGES
+========================================
+Location: ISONMICHS/css/solar-enhancements.css (Lines 1250-1320)
+
+Default Page Header:
+  Class: .page-header, .bg-breadcrumb
+  Current Image: img/header-1.jpg
+
+Home Hero Section:
+  Class: .home-hero
+  Current Image: img/header-2.jpg
+
+About Page Header:
+  Class: .about-header
+  Current Image: img/about-1.jpg
+
+Service Page Header:
+  Class: .service-header
+  Current Image: img/commercial-1.jpg
+
+Blog Page Header:
+  Class: .blog-header
+  Current Image: img/commercial-2.jpg
+
+Project Page Header:
+  Class: .project-header
+  Current Image: img/industrial-1.jpg
+
+Team Page Header:
+  Class: .team-header
+  Current Image: img/team-1.jpg
+
+========================================
+SERVICE IMAGES (Home Page Services Section)
+========================================
+Location: ISONMICHS/index.html (Lines 460-530)
+
+Core Energy Services:
+  - Solar Panel Installation: img/solar-panel-7518786_1280.jpg
+  - Inverter & Battery: img/b3.jpeg
+  - Electrical Wiring: img/b4.jpeg
+
+Additional Power Solutions:
+  - Solar Street Light: img/b5.jpeg
+  - Solar Borehole: img/b10.jpeg
+
+System Support & Upgrades:
+  - Maintenance: img/industrial-1.jpg
+
+========================================
+HOW TO REPLACE AN IMAGE
+========================================
+
+METHOD 1 - Replace the file directly:
+1. Find the image you want to replace in the "img" folder
+2. Delete or rename the old image
+3. Copy your new image into the "img" folder
+4. Rename your new image to match the old filename exactly
+5. Refresh your browser (Ctrl+F5 to clear cache)
+
+METHOD 2 - Change the filename in the code:
+1. Copy your new image into the "img" folder
+2. Open the CSS file (solar-enhancements.css) or HTML file (index.html)
+3. Find the image reference (look for the comments "TO CHANGE:")
+4. Replace the filename with your new image filename
+5. Save the file and refresh your browser
+
+========================================
+IMAGE REQUIREMENTS
+========================================
+
+Hero Carousel Images:
+  - Recommended size: 1920x1080 pixels (landscape)
+  - Format: JPG or JPEG
+  - File size: Under 500KB for fast loading
+
+Page Header Images:
+  - Recommended size: 1920x600 pixels (wide landscape)
+  - Format: JPG or JPEG
+  - File size: Under 300KB
+
+Service Images:
+  - Recommended size: 800x600 pixels
+  - Format: JPG or JPEG
+  - File size: Under 200KB
+
+========================================
+TIPS
+========================================
+
+1. Always keep a backup of your original images
+2. Use descriptive filenames (e.g., "solar-installation-2024.jpg")
+3. Optimize images before uploading to reduce file size
+4. Test on mobile devices after changing images
+5. Clear browser cache (Ctrl+F5) if images don't update
+
+========================================
+NEED HELP?
+========================================
+
+All image paths in the CSS file are marked with comments:
+  /* TO CHANGE: Replace 'filename.jpg' with your own image */
+
+Look for these comments to find exactly where to change images.
