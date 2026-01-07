@@ -157,92 +157,147 @@
         <!-- Header End -->
 
 
-        <!-- Team Start -->
-    <div class="container-fluid team-section py-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);">
-        <div class="container py-5">
-            <!-- Section Header with Animated Icon -->
+      
+
+    <!-- Leadership Team Start -->
+    <div class="container-fluid leadership-section py-5" style="background: linear-gradient(135deg, #fafbfc 0%, #f8f9fa 100%); position: relative; overflow: hidden;">
+        <!-- Abstract Background Pattern -->
+        <div class="leadership-bg-pattern" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.03; z-index: 0;">
+            <svg width="100%" height="100%" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="circuit" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+                        <path d="M20,20 L180,20 L180,180 L20,180 Z" fill="none" stroke="#28a745" stroke-width="1"/>
+                        <circle cx="50" cy="50" r="3" fill="#ff8c00"/>
+                        <circle cx="150" cy="150" r="3" fill="#28a745"/>
+                        <path d="M50,50 L150,50 L150,150" fill="none" stroke="#ff8c00" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#circuit)"/>
+            </svg>
+        </div>
+        
+        <div class="container py-5" style="position: relative; z-index: 1;">
+            <!-- Section Header -->
             <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-header-icon mb-3" style="display: inline-block; position: relative;">
-                    <i class="fas fa-bolt" style="color: #ff8c00; font-size: 3rem; animation: pulse 2s infinite;"></i>
-                    <i class="fas fa-sun" style="color: #28a745; font-size: 1.5rem; position: absolute; top: -10px; right: -10px; animation: rotate 4s linear infinite;"></i>
-                </div>
-                <h2 class="display-5 mb-3" style="color: #28a745; font-weight: bold;">Meet the Experts Behind Your Power Solutions</h2>
-                <p class="lead mx-auto" style="max-width: 700px; color: #6c757d;">Our dedicated team of certified professionals brings years of experience in solar and electrical solutions, ensuring quality service and reliable energy for your home or business.</p>
+                <h2 class="display-4 mb-4" style="color: #2c3e50; font-weight: 700; letter-spacing: -0.5px;">Meet the Experts Behind Your Power Solutions</h2>
+                <p class="lead mx-auto" style="max-width: 800px; color: #6c757d; font-size: 1.2rem; line-height: 1.7;">Driven by innovation and expertise, our leadership team combines decades of engineering excellence with visionary business acumen to deliver world-class energy solutions.</p>
             </div>
 
-            <!-- Team Cards -->
-            <div class="row g-4 justify-content-center">
-                <!-- Team Member 1 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="team-card text-center" style="background: white; border-radius: 20px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer;">
-                        <div class="team-photo-wrapper" style="position: relative; width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #28a745; box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); transition: transform 0.3s ease;">
-                            <img src="img/team-1.jpg" alt="Chief Engineer" style="width: 100%; height: 100%; object-fit: cover;">
+            <!-- Leadership Profiles -->
+            <div class="row g-5 align-items-center justify-content-center">
+                <!-- Founder & Lead Engineer - Prominent Position -->
+                <div class="col-lg-5 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="leadership-card founder-card" style="background: white; border-radius: 25px; padding: 50px 40px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                        <!-- Accent Border -->
+                        <div class="accent-border" style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #28a745, #ff8c00);"></div>
+                        
+                        <!-- Profile Image -->
+                        <div class="leadership-photo-wrapper" style="position: relative; width: 220px; height: 280px; margin: 0 auto 30px; border-radius: 20px; overflow: hidden; border: 4px solid transparent; background: linear-gradient(135deg, #28a745, #ff8c00); padding: 4px; transition: all 0.4s ease;">
+                            <div style="width: 100%; height: 100%; border-radius: 16px; overflow: hidden; background: white;">
+                                <img src="img/b1.jpg" alt="Founder & Lead Engineer" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
                         </div>
-                        <h4 class="mb-2" style="color: #28a745; font-weight: bold;">Engr. Michael Ison</h4>
-                        <p class="mb-3" style="color: #ff8c00; font-weight: 600;">Chief Engineer & Founder</p>
-                        <p class="text-muted small mb-3">15+ years of experience in solar installations and electrical systems. Certified by NESREA and committed to delivering sustainable energy solutions.</p>
-                        <div class="team-social">
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Member 2 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="team-card text-center" style="background: white; border-radius: 20px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer;">
-                        <div class="team-photo-wrapper" style="position: relative; width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #ff8c00; box-shadow: 0 5px 15px rgba(255, 140, 0, 0.3); transition: transform 0.3s ease;">
-                            <img src="img/team-2.jpg" alt="Senior Technician" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                        <h4 class="mb-2" style="color: #28a745; font-weight: bold;">Chukwudi Okafor</h4>
-                        <p class="mb-3" style="color: #ff8c00; font-weight: 600;">Senior Solar Technician</p>
-                        <p class="text-muted small mb-3">Expert in solar panel installation and inverter systems. Over 200 successful residential and commercial projects completed across Nigeria.</p>
-                        <div class="team-social">
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Member 3 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="team-card text-center" style="background: white; border-radius: 20px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer;">
-                        <div class="team-photo-wrapper" style="position: relative; width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #28a745; box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); transition: transform 0.3s ease;">
-                            <img src="img/team-3.jpg" alt="Electrical Specialist" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                        <h4 class="mb-2" style="color: #28a745; font-weight: bold;">Blessing Adeyemi</h4>
-                        <p class="mb-3" style="color: #ff8c00; font-weight: 600;">Electrical Systems Specialist</p>
-                        <p class="text-muted small mb-3">Specializes in electrical wiring, maintenance, and power backup systems. Dedicated to ensuring safe and efficient installations.</p>
-                        <div class="team-social">
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-twitter"></i></a>
+                        
+                        <!-- Profile Content -->
+                        <div class="text-center">
+                            <h3 class="mb-2" style="color: #2c3e50; font-weight: 700; font-size: 1.5rem;">Engr. Michael Ison</h3>
+                            <p class="mb-3" style="color: #28a745; font-weight: 600; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.5px;">Founder & Lead Engineer</p>
+                            <p class="mb-4" style="color: #6c757d; line-height: 1.7; font-size: 1rem;">With over 15 years of pioneering experience in solar installations and electrical systems, Engr. Michael leads our technical vision and ensures every project meets the highest standards of excellence and innovation.</p>
+                            
+                            <!-- Credentials -->
+                            <div class="credentials mb-4">
+                                <span class="badge me-2 mb-2" style="background: linear-gradient(135deg, #28a745, #20c997); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.85rem;">NESREA Certified</span>
+                                <span class="badge me-2 mb-2" style="background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.85rem;">15+ Years Experience</span>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="leadership-social">
+                                <a href="#" class="btn btn-sm mx-1" style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="btn btn-sm mx-1" style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i class="fab fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Team Member 4 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="team-card text-center" style="background: white; border-radius: 20px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer;">
-                        <div class="team-photo-wrapper" style="position: relative; width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #ff8c00; box-shadow: 0 5px 15px rgba(255, 140, 0, 0.3); transition: transform 0.3s ease;">
-                            <img src="img/team-4.jpg" alt="Customer Relations" style="width: 100%; height: 100%; object-fit: cover;">
+                <!-- Finance Director -->
+                <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="leadership-card finance-card" style="background: white; border-radius: 25px; padding: 40px 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                        <!-- Accent Border -->
+                        <div class="accent-border" style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #ff8c00, #28a745);"></div>
+                        
+                        <!-- Profile Image -->
+                        <div class="leadership-photo-wrapper" style="position: relative; width: 180px; height: 230px; margin: 0 auto 25px; border-radius: 18px; overflow: hidden; border: 3px solid transparent; background: linear-gradient(135deg, #ff8c00, #28a745); padding: 3px; transition: all 0.4s ease;">
+                            <div style="width: 100%; height: 100%; border-radius: 15px; overflow: hidden; background: white;">
+                                <img src="img/team-4.jpg" alt="Finance Director" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
                         </div>
-                        <h4 class="mb-2" style="color: #28a745; font-weight: bold;">Amaka Nwosu</h4>
-                        <p class="mb-3" style="color: #ff8c00; font-weight: 600;">Customer Relations Manager</p>
-                        <p class="text-muted small mb-3">Ensures exceptional customer service and support. Your go-to person for consultations, quotes, and after-sales service.</p>
-                        <div class="team-social">
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="btn btn-sm mx-1" style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-twitter"></i></a>
+                        
+                        <!-- Profile Content -->
+                        <div class="text-center">
+                            <h4 class="mb-2" style="color: #2c3e50; font-weight: 700; font-size: 1.3rem;">Amaka Nwosu</h4>
+                            <p class="mb-3" style="color: #ff8c00; font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.5px;">Finance Director</p>
+                            <p class="mb-4" style="color: #6c757d; line-height: 1.6; font-size: 0.95rem;">Strategic financial leadership ensuring sustainable growth and operational excellence. Amaka brings extensive experience in project financing and business development to drive our expansion.</p>
+                            
+                            <!-- Credentials -->
+                            <div class="credentials mb-4">
+                                <span class="badge me-2 mb-2" style="background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; padding: 6px 12px; border-radius: 15px; font-size: 0.8rem;">MBA Finance</span>
+                                <span class="badge me-2 mb-2" style="background: linear-gradient(135deg, #28a745, #20c997); color: white; padding: 6px 12px; border-radius: 15px; font-size: 0.8rem;">10+ Years</span>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="leadership-social">
+                                <a href="#" class="btn btn-sm mx-1" style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #ff8c00, #ffa500); color: white; display: inline-flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="btn btn-sm mx-1" style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #28a745, #20c997); color: white; display: inline-flex; align-items: center; justify-content: center; transition: all 0.3s ease;"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Values -->
+            <div class="row mt-5 pt-4">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="values-section" style="background: rgba(255,255,255,0.7); border-radius: 20px; padding: 40px; backdrop-filter: blur(10px);">
+                        <h5 class="mb-4" style="color: #2c3e50; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Our Leadership Commitment</h5>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #28a745, #20c997); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                                        <i class="fas fa-lightbulb" style="color: white; font-size: 1.5rem;"></i>
+                                    </div>
+                                    <h6 style="color: #28a745; font-weight: 600;">Innovation</h6>
+                                    <p class="small text-muted">Pioneering cutting-edge energy solutions</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ff8c00, #ffa500); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                                        <i class="fas fa-handshake" style="color: white; font-size: 1.5rem;"></i>
+                                    </div>
+                                    <h6 style="color: #ff8c00; font-weight: 600;">Trust</h6>
+                                    <p class="small text-muted">Building lasting partnerships through integrity</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="value-item">
+                                    <div class="value-icon mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #28a745, #20c997); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                                        <i class="fas fa-award" style="color: white; font-size: 1.5rem;"></i>
+                                    </div>
+                                    <h6 style="color: #28a745; font-weight: 600;">Excellence</h6>
+                                    <p class="small text-muted">Delivering superior quality in every project</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+        </div>
+    <!-- Leadership Team End -->
+  
 
 
-
-        <!-- Footer Start -->
+         <!-- Footer Start -->
     <div class="container-fluid footer bg-dark py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
             <div class="row g-5 mb-5 align-items-center">
@@ -251,7 +306,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
-                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-md-square me-3" href="https://www.facebook.com/share/1avXsAgnJb/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -291,19 +346,15 @@
                             isonmichssolar@gmail.com</a>
                       <!--  <a href="mailto:info@example.com"><i class="fas fa-envelope text-primary me-2"></i>
                             info@example.com</a> -->
-                        <a href="tel:+012 345 67890"><i class="fas fa-phone text-primary me-2"></i> +012 345 67890</a>
-                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print text-primary me-2"></i> +012
-                            345 67890</a>
+                        <a href="tel:+234 8163870873"><i class="fas fa-phone text-primary me-2"></i> +234 8163870873</a>
+                        <a href="tel:+234 8035981539" class="mb-3"><i class="fas fa-print text-primary me-2"></i> +234 8035981539
+                            </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-
-        
-       
 
         <!-- Floating Contact Bubbles -->
         <div class="floating-contacts">

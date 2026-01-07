@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initStatsCounter();
     initAboutCounters();
     initServiceCounters();
+    initBannerSlideshow();
     initCircularProgress();
     initProjectFilters();
     initContactBubbles();
@@ -371,13 +372,13 @@ function initContactBubbles() {
                 <i class="fas fa-envelope"></i>
             </div>
             <div class="sub-bubbles">
-                <a href="mailto:sales@isonmichs.com" class="sub-bubble email-bubble-1">
+                <a href="mailto:isonmichssolar@gmail.com" class="sub-bubble email-bubble-1">
                     <i class="fas fa-envelope"></i>
-                    <span>Sales<br><small>sales@isonmichs.com</small></span>
+                    <span>Sales<br><small>isonmichssolar@gmail.com</small></span>
                 </a>
-                <a href="mailto:support@isonmichs.com" class="sub-bubble email-bubble-2">
+                <a href="mailto:isonmichssolar@gmail.com" class="sub-bubble email-bubble-2">
                     <i class="fas fa-envelope"></i>
-                    <span>Support<br><small>support@isonmichs.com</small></span>
+                    <span>Support<br><small>isonmichssolar@gmail.com</small></span>
                 </a>
             </div>
         </div>
@@ -602,6 +603,31 @@ function initAboutCounters() {
         
         observer.observe(aboutSection);
     }
+}
+
+// Banner Slideshow
+function initBannerSlideshow() {
+    const slides = document.querySelectorAll('.banner-slide');
+    
+    if (slides.length === 0) {
+        return;
+    }
+    
+    let currentSlide = 0;
+    
+    function showNextSlide() {
+        // Remove active class from current slide
+        slides[currentSlide].classList.remove('active');
+        
+        // Move to next slide
+        currentSlide = (currentSlide + 1) % slides.length;
+        
+        // Add active class to new slide
+        slides[currentSlide].classList.add('active');
+    }
+    
+    // Change slide every 4 seconds
+    setInterval(showNextSlide, 4000);
 }
 
 // Service Counters Animation

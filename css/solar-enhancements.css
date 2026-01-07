@@ -532,22 +532,22 @@
 
 /* SLIDE 2 - Left Image */
 .worker-installing {
-    background-image: url('../img/electrician-3771318_1280.jpg');
+    background-image: url('../img/goldd.png');
 }
 
 /* SLIDE 2 - Right Image */
 .city-skyline {
-    background-image: url('../img/b7.jpeg');
+    background-image: url('../img/year.png');
 }
 
 /* SLIDE 3 - Left Image */
 .family-solar {
-    background-image: url('../img/solar-4824604_1280.jpg');
+    background-image: url('../img/_Post\ \ 1.png');
 }
 
 /* SLIDE 3 - Right Image */
 .solar-farms {
-    background-image: url('../img/b8.jpg');
+    background-image: url('../img/_Post.png');
 }
 
 /* SLIDE 4 - Left Image */
@@ -2133,7 +2133,7 @@ bile Navigation Fixes */
 /* Page Header Background Images for test.html - Clear and Sharp */
 /* TO CHANGE: Replace these images with your own in the img folder */
 .bg-breadcrumb {
-    background: url('../img/banner-img.jpg');
+    background: url('../img/55.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2170,7 +2170,7 @@ bile Navigation Fixes */
 
 /* TO CHANGE: Replace 'residential-2.jpg' with your own image */
 .contact-header {
-    background: url('../img/residential-2.jpg');
+    background: url('../img/55.png');
 }
 
 /* Mobile header background fix */
@@ -5487,4 +5487,198 @@ img {
     .service-card {
         padding: 25px !important;
     }
+}
+
+/* Banner Slideshow Styles */
+.banner-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #1a1a1a; /* Dark background for the empty space */
+}
+
+.banner-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    background: #1a1a1a; /* Dark background covers full area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-slide.active {
+    opacity: 1;
+}
+
+.banner-slide img {
+    max-width: 98%;
+    max-height: 95%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.banner-overlay {
+    z-index: 1;
+}
+
+/* Ensure banner content is above slideshow */
+.banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-design-1,
+.banner-design-2 {
+    z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner-slide img {
+        max-width: 99%;
+        max-height: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-slide img {
+        max-width: 100%;
+        max-height: 85%;
+    }
+}
+/* L
+eadership Section Styles */
+.leadership-card {
+    cursor: pointer;
+}
+
+.leadership-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important;
+}
+
+.founder-card:hover {
+    box-shadow: 0 25px 60px rgba(40, 167, 69, 0.2) !important;
+}
+
+.finance-card:hover {
+    box-shadow: 0 20px 45px rgba(255, 140, 0, 0.15) !important;
+}
+
+.leadership-photo-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.leadership-social a:hover {
+    transform: scale(1.15);
+}
+
+.value-item:hover .value-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Responsive Leadership Section */
+@media (max-width: 991px) {
+    .leadership-section .col-lg-5,
+    .leadership-section .col-lg-4 {
+        margin-bottom: 2rem;
+    }
+    
+    .founder-card {
+        padding: 40px 30px !important;
+    }
+    
+    .finance-card {
+        padding: 35px 25px !important;
+    }
+    
+    .leadership-photo-wrapper {
+        width: 200px !important;
+        height: 250px !important;
+    }
+    
+    .finance-card .leadership-photo-wrapper {
+        width: 180px !important;
+        height: 220px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .leadership-section h2 {
+        font-size: 2rem !important;
+    }
+    
+    .leadership-section .lead {
+        font-size: 1rem !important;
+    }
+    
+    .founder-card,
+    .finance-card {
+        padding: 30px 25px !important;
+    }
+    
+    .leadership-photo-wrapper {
+        width: 180px !important;
+        height: 220px !important;
+    }
+    
+    .finance-card .leadership-photo-wrapper {
+        width: 160px !important;
+        height: 200px !important;
+    }
+    
+    .values-section {
+        padding: 30px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .leadership-section h2 {
+        font-size: 1.75rem !important;
+    }
+    
+    .founder-card,
+    .finance-card {
+        padding: 25px 20px !important;
+    }
+    
+    .leadership-photo-wrapper {
+        width: 150px !important;
+        height: 190px !important;
+    }
+    
+    .finance-card .leadership-photo-wrapper {
+        width: 140px !important;
+        height: 180px !important;
+    }
+    
+    .values-section {
+        padding: 25px !important;
+    }
+    
+    .values-section .row.g-4 {
+        gap: 2rem !important;
+    }
+}/* Page H
+eader Background */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/55.png') center center/cover no-repeat;
+    position: relative;
+}
+/* Cont
+act Page Header - Specific Override */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/55.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
